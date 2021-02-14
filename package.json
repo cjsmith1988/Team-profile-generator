@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-    "scripts": {
+  "scripts": {
     "test": "jest"
   },
   "repository": {
@@ -19,5 +19,7 @@
   "devDependencies": {
     "jest": "^26.6.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
 }
