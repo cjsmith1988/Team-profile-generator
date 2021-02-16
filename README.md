@@ -11,6 +11,10 @@
 
 access Github repository here: https://github.com/cjsmith1988/Team-profile-generator
 
+:movie_camera: Part 1: https://youtube.com/embed/vZ-Xmi5_w34
+
+:movie_camera: Part 2: https://youtube.com/embed/137DPd69AbM
+
 To use this application follow these steps:
 
 - Clone repository
