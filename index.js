@@ -8,11 +8,6 @@ const generatePage = require('./src/page-template.js');
 const { writeFile, copyFile } = require('./utils/generate-page.js');
 
 
-//let role = 'Manager';
-
-
-//new Page().initializeGame();
-
 // Create an array of questions for user input
 const promptUser = (employeeList, firstPass, role) => {
     if (!employeeList) {
@@ -148,7 +143,6 @@ const promptUser = (employeeList, firstPass, role) => {
     .then(employeeData => {
         if (firstPass){
             employeeList.push(new Manager(employeeData.name,employeeData.id,employeeData.email,employeeData.office));
-            console.log(employeeData.role);
         } else if (role === 'Engineer'){
             employeeList.push(new Engineer(employeeData.name,employeeData.id,employeeData.email,employeeData.userName));
         } else if (role === 'Intern'){
@@ -177,7 +171,7 @@ function init() {
             return writeFile(pageHTML);
         })
         .then(writeFileResponse => {
-            console.log(writeFileResponse);
+            console.log(writeFileResponse.message);
             return copyFile();
           })
         .catch(err => {
