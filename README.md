@@ -27,7 +27,7 @@ To use this application follow these steps:
 
 -to run the jest tests type "npm run test"
 
-- After the install is complete type "node app" to start the application
+- After the install is complete type "node index" to start the application
 
 - After it is finished the html page will be ready in the "Dist" folder.
 
