@@ -80,4 +80,4 @@ THEN I exit the application, and the HTML is generated
 
 
 ![command line view](https://github.com/cjsmith1988/Team-profile-generator/blob/main/bashScreenGrab.PNG?raw=true)
-![command line view](https://github.com/cjsmith1988/Team-profile-generator/blob/main/PageScreenGrab.PNG?raw=true)
+![command line view](https://github.com/cjsmith1988/Team-profile-generator/blob/main/pageScreenGrab.PNG?raw=true)
