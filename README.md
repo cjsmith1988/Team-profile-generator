@@ -79,4 +79,5 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 
 
-![command line view](https://github.com/cjsmith1988/README-generator/blob/main/bashScreenGrab.PNG?raw=true)
+![command line view](https://github.com/cjsmith1988/Team-profile-generator/blob/main/bashScreenGrab.PNG?raw=true)
+![command line view](https://github.com/cjsmith1988/Team-profile-generator/blob/main/PageScreenGrab.PNG?raw=true)
